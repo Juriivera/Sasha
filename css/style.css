@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.page{
+    background-image:linear-gradient(to bottom right, rgba(248, 233, 226, 0.336), rgba(250, 202, 183, 0.411)), url(../img/1.jpeg);
+    background-size: cover;
+    background-position: right;
+    text-align: center;
+    background-attachment: fixed;
+    
+}
+
+.forBlur{
+    backdrop-filter: blur(2.5px);
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.87);
+    width: 80vw;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 0 3px #0c0707, 0 0 20px black;
+    
+      
+}
+
+.headerText{
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 0 0 3px #0c0707, 2px 0 0 black;
+    padding: 1rem;
+}
+
+.headerTel a{
+    font-size: 1rem;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: white;
+    text-shadow: 0 0 1px #0c0707, 1px 0 0 black;
+   
+    
+}
+
+.introText{
+    font-size: 1.3rem;
+    letter-spacing: 8px;
+    padding-top: 1.5rem;
+
+}
+
+.services{
+    text-align: left;
+    padding-left: 17vw;
+}
+
+.contactText{
+    display: inline-block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+
+.contactLink{
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.contactLink a{
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+.contactLink b{
+    color: rgb(35, 35, 177);
+}
+
+
+footer{
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 1rem;
+    font-size: 15px;
+}
