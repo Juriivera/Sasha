@@ -6,7 +6,7 @@
 
 
 .page{
-    background-image:linear-gradient(to bottom right, rgba(248, 233, 226, 0.336), rgba(250, 202, 183, 0.411)), url(../img/1.jpeg);
+    background-image:linear-gradient(to bottom right, rgba(66, 63, 61, 0.336), rgba(250, 202, 183, 0.411)), url(../img/1.jpeg);
     background-size: cover;
     background-position: right;
     text-align: center;
@@ -22,7 +22,7 @@ section{
     background-color: rgba(255, 255, 255, 0.87);
     width: 80vw;
     margin: 2rem auto;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 0 0 3px #0c0707, 0 0 20px black;
     
       
@@ -30,13 +30,14 @@ section{
 
 .headerText{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-shadow: 0 0 3px #0c0707, 2px 0 0 black;
     padding: 1rem;
+    padding-top: 2rem;
 }
 
 .headerTel a{
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-decoration: none;
     letter-spacing: 3px;
     color: white;
@@ -46,7 +47,7 @@ section{
 }
 
 .introText{
-    font-size: 1.3rem;
+    font-size: 1.8vw;
     letter-spacing: 8px;
     padding-top: 1.5rem;
 
